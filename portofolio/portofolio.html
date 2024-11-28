@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio 2029</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: #f0f8ff;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #6a0572, #c94b4b);
+            color: white;
+            display: flex; /* Mengatur elemen dalam baris */
+            align-items: center; /* Rata vertikal */
+            justify-content: space-between; /* Jarak antar elemen */
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header .header-text {
+            display: flex;
+            flex-direction: column; /* Elemen teks vertikal */
+            align-items: center; /* Rata tengah horizontal */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+        }
+
+
+        /* Navigation Menu */
+        nav {
+            background: #6a0572;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            margin: 0;
+        }
+        nav a {
+            display: block;
+            padding: 1rem 1.5rem;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #c94b4b;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        /* Profile Section */
+        .profile {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #c94b4b;
+            margin-bottom: 1rem;
+        }
+        .profile h2 {
+            color: #6a0572;
+            font-size: 2rem;
+        }
+        .profile p {
+            font-size: 1.1rem;
+        }
+
+        /* Section */
+        .section {
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+        }
+        .section h2 {
+            margin-bottom: 1rem;
+            color: #6a0572;
+            border-bottom: 2px solid #c94b4b;
+            display: inline-block;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section li {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+
+        /* Footer */
+        footer {
+            background: #6a0572;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Left Image -->
+        <img src="left.jpg" alt="Petshop Image">
+
+        <h1>Portofolio Saya</h1><br>
+        <p>Selamat datang di perjalanan karier saya!</p>
+
+        <!-- Right Image -->
+        <img src="right.png" alt="Petshop Image">
+
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#profile">Profil</a></li>
+            <li><a href="#education">Pendidikan</a></li>
+            <li><a href="#work">Pekerjaan</a></li>
+            <li><a href="#organization">Organisasi</a></li>
+            <li><a href="#certifications">Sertifikasi</a></li>
+            <li><a href="#works">Karya</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <section id="profile" class="profile">
+            <img src="profil.jpg" alt="Foto Profil">
+            <h2>ELVINA</h2>
+            <p>Email: elvinamayangsarii@gmail.com | Telepon: +62 852 6878 7740</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li>
+                    <img src="ankara.png" alt="Ankara University" class="logo" style="width: 30px; height: auto;">
+                    <strong>2028:</strong> Ankara University, Program Studi Pasca Sarjana Pendidikan Guru Ilmu Komputer dan Teknologi Pengajaran
+                </li>
+                <li>
+                    <img src="left.jpg" alt="Logo Universitas Nurdin Hamzah Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2025:</strong> Universitas Nurdin Hamzah Jambi, Program Studi Sistem Informasi
+                </li>
+                <li>
+                    <img src="right.png" alt="Logo Sekolah Menengah Kejuruan Prasasti Karang Berahi Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2020:</strong> Sekolah Menengah Kejuruan Prasasti Karang Berahi Jambi
+                </li>
+                <li>
+                    <img src="smp.jpg" alt="Logo Sekolah Menengah Pertama Negeri 5 Kota Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2017:</strong> Sekolah Menengah Pertama Negeri 5 Kota Jambi
+                </li>
+                <li>
+                    <img src="sd.jpg" alt="Logo Sekolah Dasar Negeri 45 Kota Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2014:</strong> Sekolah Dasar Negeri 45 Kota Jambi
+                </li>
+                <li>
+                    <img src="tk.jpg" alt="Logo Taman Kanak-Kanak Aisyiyah Bustanul Athfal 1 Kota Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2009:</strong> Taman Kanak-Kanak Aisyiyah Bustanul Athfal 1 Kota Jambi
+                </li>
+            </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="work" class="section">
+            <h2>Riwayat Pekerjaan</h2>
+            <ul>
+                <li>
+                    <img src="vienna.png" alt="Logo Vienna University" class="logo" style="width: 30px; height: auto;">
+                    <strong>2029 - Sekarang:</strong> Dosen Vienna University
+                </li>
+                <li>
+                    <img src="right.png" alt="Logo SMK Prasasti Karang Berahi Jambi" class="logo" style="width: 30px; height: auto;">
+                    <strong>2023 - 2026:</strong> Guru di SMK Prasasti Karang Berahi Jambi
+                </li>
+            </ul>
+        </section>
+
+        <!-- Organization Section -->
+        <section id="organization" class="section">
+            <h2>Riwayat Organisasi</h2>
+            <ul>
+                <li>
+                    <img src="swiss.png" alt="Logo Ketua Asosiasi Perguruan Tinggi Swasta di Swiss" class="logo" style="width: 30px; height: auto;">
+                    <strong>2029:</strong> Ketua Asosiasi Perguruan Tinggi Swasta di Swiss</li>
+                <li>
+                    <img src="edinburgh.png" alt="Logo skylandia" class="logo" style="width: 30px; height: auto;">
+                    <strong>2027 - 2029:</strong> Ketua Organisasi Amal Di University Of Edinburgh "skylandia" 
+                </li>
+                <li>
+                    <img src="glasglow.png" alt="Logo sciencedia" class="logo" style="width: 30px; height: auto;">
+                    <strong>2026 - 2027:</strong> Anggota Komunitas Data Analist di University of Glasglow"sciencedia"</li>
+            </ul>
+        </section>
+
+        <!-- Certification Section -->
+        <section id="certifications" class="section">
+            <h2>Riwayat Sertifikasi / Workshop</h2>
+            <ul>
+                <li>
+                    <img src="glasglow.png" alt="Logo glasglow" class="logo" style="width: 30px; height: auto;">
+                    <strong>2028:</strong> Sertifikat Pelatihan Kecerdasan Buatan University of glasglow
+                </li>
+                <li>
+                    <img src="edinburgh.png" alt="Logo Edinburgh" class="logo" style="width: 30px; height: auto;">
+                    <strong>2027:</strong> Workshop Teknologi Pendidikan Edinburgh University</li>
+                <li>
+                    <img src="milan.png" alt="Logo Politecnico" class="logo" style="width: 30px; height: auto;">
+                    <strong>2027:</strong> Workshop Desain Grafis Politecnico di Milano</li>
+            </ul>
+        </section>
+
+        <!-- Works Section -->
+        <section id="works" class="section">
+            <h2>Karya Tulis / Produk / Lainnya</h2>
+            <ul>
+                <li>
+                    <img src="book.png" alt="Logo diary" class="logo" style="width: 30px; height: auto;">
+                    <strong>2029:</strong> Buku Perjalanan Hidup "Diary Of Vina"
+                </li>
+                <li>
+                    <img src="ewha.png" alt="Logo Ewha Womans University" class="logo" style="width: 30px; height: auto;">
+                    <strong>2028:</strong> Aplikasi Sistem Informasi Akademik Ewha Womans University (이화여자대학교 학사정보시스템) 
+                </li>
+                <li>
+                    <img src="greece.jpg" alt="Logo miewah" class="logo" style="width: 30px; height: auto;">
+                    <strong>2027:</strong> Miewah (Mie Buah) di Greece  </li>
+                <li>
+                    <img src="right.png" alt="Logo SIAPAK" class="logo" style="width: 30px; height: auto;">
+                    <strong>2026:</strong> Aplikasi Sistem Informasi Akademik SMK Prasasti Karang Berahi Jambi (SIAPAK) 
+                </li>
+                <li>
+                    <img src="eo.png" alt="Logo EO" class="logo" style="width: 30px; height: auto;">
+                    <strong>2025:</strong> Event Organizer Kota Jambi "Viena" 
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>© 2029 Portofolio Pribadi Elvina 22111055. Dibuat dengan ❤️</p>
+    </footer>
+</body>
+</html>
